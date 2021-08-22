@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }} - The Takeaway Shop</title>
+    </head>
+    <body>
+        <p>The Takeaway Shop</p>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="">Menu</a>
+        <a href="">Orders</a>
+        <hr>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
